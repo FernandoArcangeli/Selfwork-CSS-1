@@ -1,0 +1,159 @@
+body.blog{
+    background-color: #2f2f2f;
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Baskerville", serif;
+  
+}   
+
+header{
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    font-family: "Libre Baskerville", serif;
+    position: sticky;
+    top: 0;
+}
+
+header span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+header span img{
+    width: 50px;
+    height: auto;
+}
+
+header span a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    
+}
+header span a:hover{
+    color: yellow;
+    transition: 0.3s;
+}
+div span a{
+    margin: 10px;
+    margin-top: 30px;
+    height: 100px;
+    line-height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 20px;
+    border-radius: 10%;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+
+div span a:hover{
+    background-color: yellow;
+    color: black;
+    transition: 0.3s;
+}
+
+span.cp{
+    font-size: 12px;
+    font-weight: normal;
+    color: yellow;
+}   
+
+
+
+main {
+    color: yellow;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 20px;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+   ;
+}
+
+article{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:row;
+    float:inline-start;
+    flex-wrap: nowrap;
+    width: 100%;
+    width: 350px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: auto;
+    line-height: 1.5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+article:hover{
+    box-shadow: 0 8px 16px rgba(255, 255, 0, 0.3);
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+
+  
+article img{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+article p.data{
+    font-size: 15px;
+    color: yellow;
+    margin: 0;
+    padding: 0;
+
+}
+
+article h3{
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+
+}
+
+article p{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: justify;
+
+
+}
+
+article a{
+    text-decoration: none;
+    color: white;
+}
+
